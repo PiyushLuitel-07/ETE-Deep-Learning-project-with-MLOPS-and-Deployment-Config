@@ -82,7 +82,7 @@ def load_json(path: Path) -> ConfigBox:
         content = json.load(f)
 
     logger.info(f"json file loaded succesfully from: {path}")
-    return ConfigBox(content)
+    return ConfigBox(content) 
 
 
 @ensure_annotations
