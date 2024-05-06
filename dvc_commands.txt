@@ -1,0 +1,6 @@
+dvc is used to track the pipeline.
+if any one stage of a pipeline is already performed, then that is skiped when we use DVC,but if we use main.py to run the pipeline it doesnt do as the former one
+
+1.dvc init
+2.dvc repro
+3.dvc dag
