@@ -55,16 +55,6 @@ open up you local host and port
 
 
 # AZURE-CICD-Deployment-with-Github-Actions
-
-## Run from terminal:
-
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login chickenapp.azurecr.io
-
-docker push chickenapp.azurecr.io/chicken:latest
-
-
 ## Deployment Steps:
 
 1. Build the Docker image of the Source Code

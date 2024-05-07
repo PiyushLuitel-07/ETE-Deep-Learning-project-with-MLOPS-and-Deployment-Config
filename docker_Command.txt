@@ -1,0 +1,5 @@
+1.docker build -t chickenapp.azurecr.io/chicken:latest .
+
+2.docker login chickenapp.azurecr.io
+
+3.docker push chickenapp.azurecr.io/chicken:latest
