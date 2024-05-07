@@ -106,7 +106,7 @@ In summary, when a user makes a GET request to the root URL of the Flask web app
 
 
 '''
-
+ 
 GET:
 Purpose: GET is used to request data from a specified resource.
 Data in URL: When you send a GET request, the data is sent via the URL as key-value pairs in the query string. For example, http://example.com/api/resource?param1=value1&param2=value2.
